@@ -20,6 +20,7 @@ return new class extends Migration
             $table->foreign('school_category_id')->references('id')->on('school_categories')->onDelete('cascade');
 
         });
+
     }
 
     /**
